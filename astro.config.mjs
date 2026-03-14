@@ -2,7 +2,8 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://raguna2.github.io/takt-explainer',
+  site: 'https://raguna2.github.io',
+  base: '/takt-explainer',
   integrations: [
     starlight({
       title: 'takt 解説',
